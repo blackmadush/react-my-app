@@ -1,0 +1,91 @@
+input {
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  outline: none;
+  font-size: 1.2rem;
+  padding: 10px;
+  margin: 20px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+input:focus {
+  text-decoration: none;
+}
+
+input:focus-within {
+  border: 2px solid rgb(144, 30, 85);
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  width: 150px;
+  padding: 10px 30px;
+  margin: 10px;
+  border: 2px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-size: 1.2rem;
+  border-radius: 200px;
+  cursor: pointer;
+}
+
+button:active {
+  color: brown;
+  background-color: antiquewhite;
+}
+
+td,
+th {
+  text-align: center;
+}
+
+
+.form-container {
+  background-image: url('C:\Users\madus\OneDrive\Documents\eventistry\my-app\src\color.png'); /* Replace 'your-background-image.jpg' with the actual image file path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: 20px auto;
+  max-width: 80%;
+}
+
+
+.form-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+table {
+  border-radius: 10px; 
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 8, 78, 0.3);
+  border-collapse: collapse; 
+  width: 100%; 
+}
+
+
+.table-row-wrapper {
+  border: 1px solid #ccc; 
+  margin-bottom: 10px; 
+  border-radius: 10px; 
+  overflow: hidden; 
+}
+
+
+.table-row-wrapper td {
+  padding: 10px; 
+}
+
