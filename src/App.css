@@ -47,7 +47,7 @@ th {
 
 
 .form-container {
-  background-image: url('C:\Users\madus\OneDrive\Documents\eventistry\my-app\src\color.png'); /* Replace 'your-background-image.jpg' with the actual image file path */
+  background-image: url('C:\Users\madus\OneDrive\Documents\eventistry\my-app\src\color.png'); 
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
